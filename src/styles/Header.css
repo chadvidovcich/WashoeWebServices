@@ -1,27 +1,14 @@
-.logo {
-  height: 4em;
-  /* padding: 1.5em; */
-  will-change: filter;
-  transition: filter 300ms;
-
-  /* animation: logo-spin infinite 10s linear; */
-}
-.logo:hover {
-  filter: drop-shadow(0 0 5em var(--logo-color));
-}
-
 .header {
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: end;
 }
-
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.logo {
+  height: 4rem;
+  will-change: filter;
+  transition: filter 500ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 3rem var(--logo-color));
+}

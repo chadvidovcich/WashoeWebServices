@@ -15,7 +15,7 @@ function Header() {
       </div>
       <div className='nav'>
         <a href=''>
-          <p>this is an anchor tag</p>
+          <p>Washoe Web Services</p>
         </a>
       </div>
     </div>
