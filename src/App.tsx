@@ -1,17 +1,13 @@
-import { useState } from 'react';
-import WWSLogo from '/WWS Banner.svg';
-import './App.css';
+// import { useState } from 'react';
+import './styles/App.css';
+import Header from './components/Header';
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <a href='' target='_blank' rel='noreferrer'>
-          <img src={WWSLogo} className='logo' alt='Washoe Web Services logo' />
-        </a>
-      </div>
+      <Header />
     </>
   );
 }
